@@ -1,0 +1,11 @@
+@import url(./flex.css);
+html,body{
+    padding:0;
+    margin:0;
+    background: url('../imgs/small.jpg') no-repeat;
+}
+ul,li{
+    padding:0;
+    margin:0;
+    list-style:none;
+}

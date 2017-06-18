@@ -82,5 +82,6 @@ new Vue({
     // components:{test}
 });
 
+
 /***/ })
 /******/ ]);

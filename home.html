@@ -16,7 +16,6 @@
 </style>
 <body>
   <div id="app">
-      {{msg}}
   </div>
   <!--<div class="test">-->
       <!--&lt;!&ndash;<% for(var key in htmlWebpackPlugin.files){ %>&ndash;&gt;-->
@@ -27,11 +26,13 @@
       <!--&lt;!&ndash;<%= key %>:<%=JSON.stringify(htmlWebpackPlugin.options[key])%><br>&ndash;&gt;-->
       <!--&lt;!&ndash;<%}%>&ndash;&gt;-->
   <!--</div>-->
-   <% for (var k in htmlWebpackPlugin.files.chunks){%>
-      <% if (k!='index'){%>
-         <script src="<% htmlWebpackPlugin.files.chunks[k].entry%>"></script>
-      <%}%>
-   <%}%>
+  <!--<div>-->
+       <!--<% for (var k in htmlWebpackPlugin.files.chunks){%>-->
+      <!--<% if (k!='index'){%>-->
+         <!--<script src="<% htmlWebpackPlugin.files.chunks[k].entry%>"></script>-->
+      <!--<%}%>-->
+   <!--<%}%>-->
+  <!--</div>-->
   <script src="node_modules/vue/dist/vue.min.js"></script>
 </body>
 </html>
